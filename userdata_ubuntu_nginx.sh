@@ -10,13 +10,13 @@ apt-get upgrade -y
 mkdir /etc/ssl/nginx
 cat << EOF > /etc/ssl/nginx/nginx-repo.crt
 -----BEGIN CERTIFICATE-----
-"your cert goes here"
+your cert goes here
 -----END CERTIFICATE-----
 EOF
 
 cat << EOF > /etc/ssl/nginx/nginx-repo.key
 -----BEGIN PRIVATE KEY-----
-"your key goes here
+your key goes here
 -----END PRIVATE KEY-----
 EOF
 
